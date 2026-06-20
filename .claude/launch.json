@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Next.js Web App",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "web", "dev"],
+      "cwd": "/Users/tuongdang/JAPANA/jpn",
+      "port": 3000
+    },
+    {
+      "name": "Storybook UI Review",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@workspace/ui", "storybook"],
+      "cwd": "/Users/tuongdang/JAPANA/jpn",
+      "port": 6006
+    },
+    {
+      "name": "All Dev Servers (Turbo)",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["dev"],
+      "cwd": "/Users/tuongdang/JAPANA/jpn",
+      "port": 3000
+    }
+  ]
+}
